@@ -164,7 +164,8 @@ All components are built to follow the **SOLID principles**:
 ## Author
 
 **Name:** Richard Boabeng
-**LinkedIn:** [DSLS – Programming IV](https://www.linkedin.com/in/richard-boabeng-386992125/)
+
+**LinkedIn:** [Richard Boabeng](https://www.linkedin.com/in/richard-boabeng-386992125/)
 
 
 ---
