@@ -1,0 +1,110 @@
+2025-06-27 15:44:22  Found new data file
+2025-06-27 15:44:22  Loading the file
+2025-06-27 15:44:23  Successfully loaded data from ./data/raw/training_data.csv
+2025-06-27 15:44:23  Received transformed data
+2025-06-27 15:44:24  Data transformations completed successfully
+2025-06-27 15:44:24  Received predictions
+2025-06-27 15:44:26  Model saved to ./models/anomaly_model.pkl
+2025-06-27 15:44:35  Processed training data with anomalies saved to: data\output\train_with_anomalies.csv
+2025-06-27 15:44:35  Saving predictions
+2025-06-27 15:44:35  Successfully saved plot to img\sensor_00_anomaly_plot.png
+2025-06-27 15:44:35  Saving image2 sensor_00_anomaly_plot.png
+2025-06-27 15:44:36  Successfully saved plot to img\sensor_01_anomaly_plot.png
+2025-06-27 15:44:36  Saving image2 sensor_01_anomaly_plot.png
+2025-06-27 15:44:37  Successfully saved plot to img\sensor_02_anomaly_plot.png
+2025-06-27 15:44:37  Saving image2 sensor_02_anomaly_plot.png
+2025-06-27 15:44:37  Successfully saved plot to img\sensor_03_anomaly_plot.png
+2025-06-27 15:44:37  Saving image2 sensor_03_anomaly_plot.png
+2025-06-27 15:44:38  Successfully saved plot to img\sensor_04_anomaly_plot.png
+2025-06-27 15:44:38  Saving image2 sensor_04_anomaly_plot.png
+2025-06-27 15:44:39  Successfully saved plot to img\sensor_05_anomaly_plot.png
+2025-06-27 15:44:39  Saving image2 sensor_05_anomaly_plot.png
+2025-06-27 15:44:39  Successfully saved plot to img\sensor_06_anomaly_plot.png
+2025-06-27 15:44:39  Saving image2 sensor_06_anomaly_plot.png
+2025-06-27 15:44:40  Successfully saved plot to img\sensor_07_anomaly_plot.png
+2025-06-27 15:44:40  Saving image2 sensor_07_anomaly_plot.png
+2025-06-27 15:44:41  Successfully saved plot to img\sensor_08_anomaly_plot.png
+2025-06-27 15:44:41  Saving image2 sensor_08_anomaly_plot.png
+2025-06-27 15:44:42  Successfully saved plot to img\sensor_09_anomaly_plot.png
+2025-06-27 15:44:42  Saving image2 sensor_09_anomaly_plot.png
+2025-06-27 15:44:42  Successfully saved plot to img\sensor_10_anomaly_plot.png
+2025-06-27 15:44:42  Saving image2 sensor_10_anomaly_plot.png
+2025-06-27 15:44:43  Successfully saved plot to img\sensor_11_anomaly_plot.png
+2025-06-27 15:44:43  Saving image2 sensor_11_anomaly_plot.png
+2025-06-27 15:44:44  Successfully saved plot to img\sensor_12_anomaly_plot.png
+2025-06-27 15:44:44  Saving image2 sensor_12_anomaly_plot.png
+2025-06-27 15:44:44  Successfully saved plot to img\sensor_14_anomaly_plot.png
+2025-06-27 15:44:44  Saving image2 sensor_14_anomaly_plot.png
+2025-06-27 15:44:45  Successfully saved plot to img\sensor_16_anomaly_plot.png
+2025-06-27 15:44:45  Saving image2 sensor_16_anomaly_plot.png
+2025-06-27 15:44:46  Successfully saved plot to img\sensor_17_anomaly_plot.png
+2025-06-27 15:44:46  Saving image2 sensor_17_anomaly_plot.png
+2025-06-27 15:44:46  Successfully saved plot to img\sensor_18_anomaly_plot.png
+2025-06-27 15:44:46  Saving image2 sensor_18_anomaly_plot.png
+2025-06-27 15:44:47  Successfully saved plot to img\sensor_19_anomaly_plot.png
+2025-06-27 15:44:47  Saving image2 sensor_19_anomaly_plot.png
+2025-06-27 15:44:48  Successfully saved plot to img\sensor_20_anomaly_plot.png
+2025-06-27 15:44:48  Saving image2 sensor_20_anomaly_plot.png
+2025-06-27 15:44:48  Successfully saved plot to img\sensor_21_anomaly_plot.png
+2025-06-27 15:44:48  Saving image2 sensor_21_anomaly_plot.png
+2025-06-27 15:44:49  Successfully saved plot to img\sensor_22_anomaly_plot.png
+2025-06-27 15:44:49  Saving image2 sensor_22_anomaly_plot.png
+2025-06-27 15:44:49  Successfully saved plot to img\sensor_23_anomaly_plot.png
+2025-06-27 15:44:49  Saving image2 sensor_23_anomaly_plot.png
+2025-06-27 15:44:50  Successfully saved plot to img\sensor_24_anomaly_plot.png
+2025-06-27 15:44:50  Saving image2 sensor_24_anomaly_plot.png
+2025-06-27 15:44:50  Successfully saved plot to img\sensor_25_anomaly_plot.png
+2025-06-27 15:44:50  Saving image2 sensor_25_anomaly_plot.png
+2025-06-27 15:44:51  Successfully saved plot to img\sensor_26_anomaly_plot.png
+2025-06-27 15:44:51  Saving image2 sensor_26_anomaly_plot.png
+2025-06-27 15:44:52  Successfully saved plot to img\sensor_27_anomaly_plot.png
+2025-06-27 15:44:52  Saving image2 sensor_27_anomaly_plot.png
+2025-06-27 15:44:53  Successfully saved plot to img\sensor_28_anomaly_plot.png
+2025-06-27 15:44:53  Saving image2 sensor_28_anomaly_plot.png
+2025-06-27 15:44:53  Successfully saved plot to img\sensor_29_anomaly_plot.png
+2025-06-27 15:44:53  Saving image2 sensor_29_anomaly_plot.png
+2025-06-27 15:44:54  Successfully saved plot to img\sensor_30_anomaly_plot.png
+2025-06-27 15:44:54  Saving image2 sensor_30_anomaly_plot.png
+2025-06-27 15:44:55  Successfully saved plot to img\sensor_31_anomaly_plot.png
+2025-06-27 15:44:55  Saving image2 sensor_31_anomaly_plot.png
+2025-06-27 15:44:55  Successfully saved plot to img\sensor_32_anomaly_plot.png
+2025-06-27 15:44:55  Saving image2 sensor_32_anomaly_plot.png
+2025-06-27 15:44:56  Successfully saved plot to img\sensor_33_anomaly_plot.png
+2025-06-27 15:44:56  Saving image2 sensor_33_anomaly_plot.png
+2025-06-27 15:44:56  Successfully saved plot to img\sensor_34_anomaly_plot.png
+2025-06-27 15:44:56  Saving image2 sensor_34_anomaly_plot.png
+2025-06-27 15:44:57  Successfully saved plot to img\sensor_35_anomaly_plot.png
+2025-06-27 15:44:57  Saving image2 sensor_35_anomaly_plot.png
+2025-06-27 15:44:58  Successfully saved plot to img\sensor_36_anomaly_plot.png
+2025-06-27 15:44:58  Saving image2 sensor_36_anomaly_plot.png
+2025-06-27 15:44:59  Successfully saved plot to img\sensor_37_anomaly_plot.png
+2025-06-27 15:44:59  Saving image2 sensor_37_anomaly_plot.png
+2025-06-27 15:44:59  Successfully saved plot to img\sensor_38_anomaly_plot.png
+2025-06-27 15:44:59  Saving image2 sensor_38_anomaly_plot.png
+2025-06-27 15:44:59  Successfully saved plot to img\sensor_39_anomaly_plot.png
+2025-06-27 15:44:59  Saving image2 sensor_39_anomaly_plot.png
+2025-06-27 15:45:00  Successfully saved plot to img\sensor_40_anomaly_plot.png
+2025-06-27 15:45:00  Saving image2 sensor_40_anomaly_plot.png
+2025-06-27 15:45:00  Successfully saved plot to img\sensor_41_anomaly_plot.png
+2025-06-27 15:45:00  Saving image2 sensor_41_anomaly_plot.png
+2025-06-27 15:45:01  Successfully saved plot to img\sensor_42_anomaly_plot.png
+2025-06-27 15:45:01  Saving image2 sensor_42_anomaly_plot.png
+2025-06-27 15:45:02  Successfully saved plot to img\sensor_43_anomaly_plot.png
+2025-06-27 15:45:02  Saving image2 sensor_43_anomaly_plot.png
+2025-06-27 15:45:02  Successfully saved plot to img\sensor_44_anomaly_plot.png
+2025-06-27 15:45:02  Saving image2 sensor_44_anomaly_plot.png
+2025-06-27 15:45:03  Successfully saved plot to img\sensor_45_anomaly_plot.png
+2025-06-27 15:45:03  Saving image2 sensor_45_anomaly_plot.png
+2025-06-27 15:45:03  Successfully saved plot to img\sensor_46_anomaly_plot.png
+2025-06-27 15:45:03  Saving image2 sensor_46_anomaly_plot.png
+2025-06-27 15:45:04  Successfully saved plot to img\sensor_47_anomaly_plot.png
+2025-06-27 15:45:04  Saving image2 sensor_47_anomaly_plot.png
+2025-06-27 15:45:04  Successfully saved plot to img\sensor_48_anomaly_plot.png
+2025-06-27 15:45:04  Saving image2 sensor_48_anomaly_plot.png
+2025-06-27 15:45:05  Successfully saved plot to img\sensor_49_anomaly_plot.png
+2025-06-27 15:45:05  Saving image2 sensor_49_anomaly_plot.png
+2025-06-27 15:45:06  Successfully saved plot to img\sensor_50_anomaly_plot.png
+2025-06-27 15:45:06  Saving image2 sensor_50_anomaly_plot.png
+2025-06-27 15:45:06  Successfully saved plot to img\sensor_51_anomaly_plot.png
+2025-06-27 15:45:06  Saving image2 sensor_51_anomaly_plot.png
+2025-06-27 15:45:06  Resuming listening

@@ -1,0 +1,73 @@
+{
+    "version": "1.0",
+    "environment": "production",
+    "directories": {
+        "input": "./data/input",
+        "output": "./data/output",
+        "images": "./img",
+        "models": "./models",
+        "logs": "./logs",
+        "archive": "./data/archive"
+    },
+    "file_paths": {
+        "log_file": "./logs/pipeline.log",
+        "model_file": "./models/anomaly_model.pkl",
+        "train_data": "./data/raw/training_data.csv"
+    },
+    "img_directory": "./img", 
+    "processing": {
+        "check_interval_seconds": 30,
+        "max_file_age_days": 7,
+        "columns_to_drop": ["machine_status", "Unnamed: 0","sensor_15"],
+        "required_columns": ["timestamp","sensor_00","sensor_01","sensor_02","sensor_03",
+    "sensor_04","sensor_05","sensor_06","sensor_07","sensor_08",
+"sensor_09","sensor_10","sensor_11","sensor_12","sensor_14","sensor_16","sensor_17",
+"sensor_18","sensor_19","sensor_20","sensor_21","sensor_22","sensor_23",
+"sensor_24","sensor_25","sensor_26","sensor_27","sensor_28","sensor_29",
+"sensor_30","sensor_31","sensor_32","sensor_33","sensor_34","sensor_35",
+"sensor_36","sensor_37","sensor_38","sensor_39","sensor_40","sensor_41",
+"sensor_42","sensor_43","sensor_44","sensor_45","sensor_46","sensor_47",
+"sensor_48","sensor_49","sensor_50","sensor_51"],
+        "data_retention": {
+            "keep_processed_files": 30,
+            "keep_logs_days": 7
+        }
+    },
+    "visualization": {
+        "sensors_to_plot": ["sensor_00","sensor_01","sensor_02","sensor_03",
+    "sensor_04","sensor_05","sensor_06","sensor_07","sensor_08",
+"sensor_09","sensor_10","sensor_11","sensor_12","sensor_14","sensor_16","sensor_17",
+"sensor_18","sensor_19","sensor_20","sensor_21","sensor_22","sensor_23",
+"sensor_24","sensor_25","sensor_26","sensor_27","sensor_28","sensor_29",
+"sensor_30","sensor_31","sensor_32","sensor_33","sensor_34","sensor_35",
+"sensor_36","sensor_37","sensor_38","sensor_39","sensor_40","sensor_41",
+"sensor_42","sensor_43","sensor_44","sensor_45","sensor_46","sensor_47",
+"sensor_48","sensor_49","sensor_50","sensor_51"],
+        "plot_settings": {
+            "width": 12,
+            "height": 6,
+            "dpi": 100,
+            "anomaly_color": "#ff0000",
+            "normal_color": "#1f77b4"
+        }
+    },
+    "model": {
+        "type": "IsolationForest",
+        "parameters": {
+            "contamination": 0.01,
+            "n_estimators": 100,
+            "random_state": 42,
+            "max_features": 1.0
+        },
+        "retraining": {
+            "enabled": false,
+            "schedule": "weekly",
+            "threshold_accuracy": 0.85
+        }
+    },
+    "logging": {
+        "level": "INFO",
+        "max_size_mb": 10,
+        "backup_count": 3
+    }
+}
